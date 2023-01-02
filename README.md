@@ -1,4 +1,8 @@
 # Random_Password_Generator_C++
+This Program uses user input to create a random password. It allows the user to choose the password's length and whether or not to include capital letters and special characters.
+
+
+
 
 
 #include <stdio.h>
@@ -11,7 +15,6 @@ using namespace std;
  const char cAlphaNum [] = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";   
  const char alphaNum [] = "1234567890abcdefghijklmnopqrstuvwxyz";
 
-//  int string_length = sizeof(alphaNumSpec);
 
 int main()
 {
